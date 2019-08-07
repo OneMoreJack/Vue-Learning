@@ -1,0 +1,6 @@
+@mixin center {
+    margin: auto;
+}
+.content {
+    @include center;
+}
