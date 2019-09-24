@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <router-view name="nav"></router-view>
+    <!-- <router-view name="nav"></router-view> -->
     <router-view></router-view>
   </div>
 </template>
@@ -13,4 +13,8 @@ export default {
 
 <style>
 * {padding: 0; margin: 0}
+#app {
+  width: 1000px;
+  margin: auto;
+}
 </style>
