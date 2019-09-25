@@ -10,6 +10,6 @@ export default  [
     },{
         path: '/dynamic-components',
         name: 'dynamic-components',
-        component:() => import('@/views/basic/DynamicComponent'),
+        component:() => import('@/views/components-in-depth/DynamicComponent'),
     }
 ]

@@ -14,9 +14,9 @@
 </template>
 
 <script>
-import DemoOne from '@/views/demo/DemoOne.vue';
-import DemoTwo from '@/views/demo/DemoTwo.vue';
-import DemoThree from '@/views/demo/DemoThree.vue';
+import DemoOne from '@/components/dynamic/DemoOne.vue';
+import DemoTwo from '@/components/dynamic/DemoTwo.vue';
+import DemoThree from '@/components/dynamic/DemoThree.vue';
 
 export default {
     name: 'DynamicComponent',
