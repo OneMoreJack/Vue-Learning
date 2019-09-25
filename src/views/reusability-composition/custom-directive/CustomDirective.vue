@@ -51,8 +51,8 @@
     data() {
       return {
         distance: {
-          left: 20,
-          top: 50
+          left: 50,
+          top: 200
         },
       }
     }
