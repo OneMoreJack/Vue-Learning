@@ -5,9 +5,13 @@ export const nav = {
         title: '深入了解组件',
         id: '1',
         content: [{
-            title: '动态组件',
-            id: '1-1',
-            link: '/dynamic-components'
+          title: '动态组件',
+          id: '1-1',
+          link: '/dynamic-components'
+        },{
+          title: '自定义事件',
+          id: '1-2',
+          link: '/custom-events'
         }]
       },
       {

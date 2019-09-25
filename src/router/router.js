@@ -15,5 +15,9 @@ export default  [
         path: '/custom-directive',
         name: 'custom-directive',
         component: () => import('@/views/reusability-composition/CustomDirective.vue')
+    }, {
+        path: '/custom-events',
+        name: 'custom-events',
+        component: () => import('@/views/components-in-depth/CustomEvents.vue')
     }
 ]
