@@ -11,5 +11,9 @@ export default  [
         path: '/dynamic-components',
         name: 'dynamic-components',
         component:() => import('@/views/components-in-depth/DynamicComponent'),
+    },{
+        path: '/custom-directive',
+        name: 'custom-directive',
+        component: () => import('@/views/reusability-composition/custom-directive/CustomDirective.vue')
     }
 ]

@@ -11,8 +11,13 @@ export const nav = {
         }]
       },
       {
-        title: '模块二',
-        id: '2'
+        title: '可复用性&组合',
+        id: '2',
+        content: [{
+          title: '自定义指令',
+          id: '2-1',
+          link: '/custom-directive'
+        }] 
       },
       {
         title: '模块三',
