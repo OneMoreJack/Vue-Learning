@@ -14,6 +14,6 @@ export default  [
     },{
         path: '/custom-directive',
         name: 'custom-directive',
-        component: () => import('@/views/reusability-composition/custom-directive/CustomDirective.vue')
+        component: () => import('@/views/reusability-composition/CustomDirective.vue')
     }
 ]
